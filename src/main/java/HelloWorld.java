@@ -31,10 +31,9 @@ public class HelloWorld {
     public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException, TransformerException {
         // URL: Localhost:4567/ and route...
         BasicConfigurator.configure();
-
+        CorsFilter.apply();
         get("getJSON/:date", (request, response) ->{
             String xmlFromWeb = getXML(request.params(":date") );
-            System.out.println(request.params(":date"));
             JSONObject Json = convertXmlToJson(xmlFromWeb);
             return Json;
         });
