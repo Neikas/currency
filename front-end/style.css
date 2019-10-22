@@ -81,3 +81,19 @@ h1 {
 .rwd-table th, .rwd-table td:before {
     color: #dd5;
 }
+
+/* css flex */
+.flex-container {
+    display: flex;
+    padding: 5px;
+}
+.table2{
+    flex: 1;
+}
+.table1 , table3{
+    flex:2;
+}
+.text{
+    justify-content: center;
+    text-align: center;
+}
