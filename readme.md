@@ -35,7 +35,7 @@ test version 2019-10-23
 * **Edvinas Juckevicius** - *Initial work*
 
 ## GIF of project
-
+![demo](demo/project.gif)
 
 ## License
 
