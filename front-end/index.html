@@ -9,20 +9,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="loader-wrapper">
+    <span class="loader"></span>
+</div>
 <h1 class="text">Valiutu kursai </h1>
 <div class="flex-container">
     <div class="table1">
+        <input type="date" id="dateFrom">
         <table class="rwd-table" id="tableCurrency1">
         </table>
     </div>
     <div class="table2">
-        <table class="rwd-table" id="tablePkytis">
-            <th>
-                Pokytis
-            </th>
+        <button type="button" id="btn">Skaičiuoti</button>
+        <table class="rwd-table" id="tableDifference">
+
         </table>
     </div>
     <div class="table3">
+        <input type="date" id="dateTo">
         <table class="rwd-table" id="tableCurrency2">
         </table>
     </div>
