@@ -7,8 +7,8 @@ Valiutu kursai
 first you need:\
 1.JDK 11\
 2.Some IDE to support maven\
-3.Internet connection to download all needed dependencies
-3 EC 6 or higher 
+3.Internet connection to download all needed dependencies\
+4 EC 6 or higher 
 
 ### Prerequisites
 
